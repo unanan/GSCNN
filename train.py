@@ -144,7 +144,7 @@ def main():
 
     #Main Loop
     for epoch in range(args.start_epoch, args.max_epoch):
-	# Update EPOCH CTR
+        # Update EPOCH CTR
         cfg.immutable(False)
         cfg.EPOCH  = epoch
         cfg.immutable(True)
